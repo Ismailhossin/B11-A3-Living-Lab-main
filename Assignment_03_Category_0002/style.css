@@ -1,0 +1,16 @@
+
+.header{
+    background: linear-gradient(to top, #EFEBE3, white);
+}
+
+@media (max-width: 1025px) {
+  .nav-btn{
+    display: none;
+
+  }
+  .nav-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+}
